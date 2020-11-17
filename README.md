@@ -1,10 +1,10 @@
 # Python scraping
 
-##To Use
+## To Use
 Use Python to scrape data from websites to create a database.
 
 
-##To Install
+## To Install
 You need to install these following libraries: requests, beautifulsoup4, pandas
 
 ```
