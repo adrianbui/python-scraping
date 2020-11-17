@@ -1,7 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-page = requests.get("https://blog.ongig.com/diversity-and-inclusion/biased-language-examples/")
-soup = BeautifulSoup(page.content, 'html.parser')
+website = str(input())
+page = requests.get(website)
+soup = BeautifulSoup(page.content, 'lxml')
 
-print(soup.find_all())
+print(soup)
