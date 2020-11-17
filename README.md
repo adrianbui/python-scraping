@@ -2,4 +2,10 @@
 
 Use Python to scrape data to create a database.
 
-Libraries: Requests, b4s (BeautifulSoup)
+You need to install these following libraries: requests, beautifulsoup4, pandas
+
+pip install requests
+
+pip install beautifulsoup4
+
+pip install pandas
